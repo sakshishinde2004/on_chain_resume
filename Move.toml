@@ -1,0 +1,14 @@
+[package]
+name = "resume_builder"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ResumeBuilder = "0x367c5997981f46536ce13acda92e1b05a5047c5ddab164e31af496396bde456f"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[dev-dependencies]
